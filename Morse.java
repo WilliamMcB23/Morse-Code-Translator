@@ -8,7 +8,9 @@ public class Morse
       // user input assigned to look for a string of letters.
       Scanner sc = new Scanner(System.in);
       String userInput;
-    
+     
+      // allows for capital letters.
+      userInput = userInput.toLowerCase();
     
       // prompt message for the user.
       System.out.println("Enter your message : ");
