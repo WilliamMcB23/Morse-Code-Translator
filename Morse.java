@@ -50,5 +50,6 @@ public class Morse
        }
 
       System.out.println(" ");
+     System.out.print("William McBride");
   }
 }
